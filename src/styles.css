@@ -20,7 +20,7 @@ body {
 }
 
 .img-container {
-  background-image: url("./images/pattern-bg.svg");
+  background-image: url("../images/pattern-bg.svg");
   background-size: 100%;
   margin: auto;
   width: 330px;
@@ -61,7 +61,7 @@ body {
 #testimonial-container {
   /* background-color: black; */
   position: relative;
-  background-image: url("./images/pattern-curved.svg");
+  background-image: url("../images/pattern-curved.svg");
   background-position: bottom left;
   background-repeat: no-repeat;
   background-size: 60%;
@@ -78,7 +78,7 @@ body {
 }
 
 #testimonial-container p {
-  background-image: url("./images/pattern-quote.svg");
+  background-image: url("../images/pattern-quote.svg");
   background-repeat: no-repeat;
   background-size: 3rem;
   background-position: top center;
