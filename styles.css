@@ -63,7 +63,7 @@ body {
   background: #fff;
 }
 
-#testimonial-container {
+.testimonial-container {
   /* background-color: black; */
   position: relative;
   margin-top: 25px;
@@ -78,7 +78,7 @@ body {
   margin: auto;
 }
 
-#testimonial-container p {
+.testimonial-container p {
   background-image: url("./images/pattern-quotes.svg");
   background-repeat: no-repeat;
   background-size: 3rem;
@@ -89,14 +89,14 @@ body {
   color: rgba(0, 0, 0, 0.6);
 }
 
-#testimonial-container h3 {
+.testimonial-container h3 {
   font-weight: 700;
   margin-bottom: 0;
   padding: 0;
   font-size: 1rem;
 }
 
-#testimonial-container h4 {
+.testimonial-container h4 {
   margin-top: 0;
   padding: 0;
   font-weight: 500;
@@ -130,7 +130,7 @@ body {
     width: 1200px;
   }
 
-  #testimonial-container {
+  .testimonial-container {
     text-align: left;
     margin-left: 20px;
     margin-right: -20px;
@@ -140,22 +140,22 @@ body {
     line-height: 2.8rem;
   }
 
-  #testimonial-container p,
-  #testimonial-container h3,
-  #testimonial-container h4 {
+  .testimonial-container p,
+  .testimonial-container h3,
+  .testimonial-container h4 {
     text-align: left;
     padding: 0;
     margin: 0;
   }
 
-  #testimonial-container p {
+  .testimonial-container p {
     padding-top: 50px;
     margin-bottom: 20px;
     margin-right: 0px;
   }
 
-  #testimonial-container h3,
-  #testimonial-container h4 {
+  .testimonial-container h3,
+  .testimonial-container h4 {
     display: inline;
     font-size: 1.3rem;
   }
