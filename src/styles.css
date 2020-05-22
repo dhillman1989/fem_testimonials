@@ -20,7 +20,7 @@ body {
 }
 
 .img-container {
-  background-image: url("../images/pattern-bg.svg");
+  background-image: url("../../images/pattern-bg.svg");
   background-size: 100%;
   margin: auto;
   width: 330px;
