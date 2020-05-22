@@ -40,7 +40,7 @@ body {
 .controls {
   position: absolute;
   bottom: 9px;
-  width: 25%;
+  width: 75px;
   height: 36px;
   display: flex;
   background-color: white;
@@ -61,7 +61,7 @@ body {
 #testimonial-container {
   /* background-color: black; */
   position: relative;
-  background-image: url("./images/pattern-curve.svg");
+  background-image: url("./images/pattern-curved.svg");
   background-position: bottom left;
   background-repeat: no-repeat;
   background-size: 60%;
@@ -78,7 +78,7 @@ body {
 }
 
 #testimonial-container p {
-  background-image: url("./images/pattern-quotes.svg");
+  background-image: url("./images/pattern-quote.svg");
   background-repeat: no-repeat;
   background-size: 3rem;
   background-position: top center;
@@ -115,7 +115,7 @@ body {
   display: flex;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 1440px) {
   body {
     height: 100vh;
     display: flex;
@@ -126,7 +126,17 @@ body {
   #app {
     margin: 0px;
     padding: 0;
-    width: 620px;
+    width: 1200px;
+  }
+
+  #testimonial-container {
+    text-align: left;
+    margin-left: 20px;
+    margin-right: -20px;
+    font-size: 1.7rem;
+    font-weight: 300;
+    word-spacing: 0.25rem;
+    line-height: 2.8rem;
   }
 
   #testimonial-container p,
@@ -138,8 +148,17 @@ body {
   }
 
   #testimonial-container p {
+    background-position: left 100px top 0px;
+    background-size: 6rem;
+    padding-top: 50px;
     margin-bottom: 20px;
     margin-right: -20px;
+  }
+
+  #testimonial-container h3,
+  #testimonial-container h4 {
+    display: inline;
+    font-size: 1.3rem;
   }
 
   .showing {
@@ -148,11 +167,12 @@ body {
     width: 100%;
   }
   .img-container {
-    background-image: url("./images/patterned-bg.svg");
-    background-size: 100%;
+    background-image: url("./images/pattern-bg.svg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     margin: auto;
-    width: 330px;
-    height: 310px;
+    width: 640px;
+    height: 650px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -160,23 +180,20 @@ body {
   }
 
   .img-container img {
-    width: 255px;
-    height: 255px;
+    width: 535px;
+    height: 540px;
+    margin-right: 220px;
     box-shadow: 0 35px 35px -20px rgb(0, 0, 0, 0.3);
   }
 
   .controls {
-    position: absolute;
-    bottom: 9px;
-    width: 25%;
-    height: 36px;
-    display: flex;
-    background-color: white;
-    justify-content: space-between;
-    align-items: center;
-    border-radius: 20px;
-    padding: 10px;
-
-    box-sizing: border-box;
+    height: 60px;
+    width: 120px;
+    border-radius: 30px;
+    bottom: 30px;
+    left: 50px;
+  }
+  .controls button {
+    font-size: 1.5rem;
   }
 }
