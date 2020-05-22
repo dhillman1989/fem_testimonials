@@ -4,7 +4,7 @@ const testimonials = document.querySelectorAll(".article");
 const total = testimonials.length;
 let current = 0;
 
-prevBtns.forEach((btn) =>
+prevBtns.forEach(btn =>
   btn.addEventListener("click", () => {
     testimonials[current].classList.remove("showing");
     if (current > 0) {
@@ -17,7 +17,7 @@ prevBtns.forEach((btn) =>
   })
 );
 
-nextBtns.forEach((btn) =>
+nextBtns.forEach(btn =>
   btn.addEventListener("click", () => {
     testimonials[current].classList.remove("showing");
     if (current < total - 1) {
