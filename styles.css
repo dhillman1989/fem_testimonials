@@ -152,7 +152,7 @@ body {
     background-size: 6rem;
     padding-top: 50px;
     margin-bottom: 20px;
-    margin-right: -20px;
+    margin-right: 0px;
   }
 
   #testimonial-container h3,
@@ -182,7 +182,7 @@ body {
   .img-container img {
     width: 535px;
     height: 540px;
-    margin-right: 220px;
+    margin-right: 65px;
     box-shadow: 0 35px 35px -20px rgb(0, 0, 0, 0.3);
   }
 
