@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap");
 
 body {
-  margin: 25px;
+  margin-top: 25px;
   font-family: "Inter", sans-serif;
   text-align: center;
   font-size: 32px;
@@ -20,7 +20,7 @@ body {
 }
 
 .img-container {
-  background-image: url("./images/patterned-bg.svg");
+  background-image: url("./images/pattern-bg.svg");
   background-size: 100%;
   margin: auto;
   width: 330px;
@@ -113,4 +113,70 @@ body {
 
 .showing {
   display: flex;
+}
+
+@media only screen and (min-width: 800px) {
+  body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #app {
+    margin: 0px;
+    padding: 0;
+    width: 620px;
+  }
+
+  #testimonial-container p,
+  #testimonial-container h3,
+  #testimonial-container h4 {
+    text-align: left;
+    padding: 0;
+    margin: 0;
+  }
+
+  #testimonial-container p {
+    margin-bottom: 20px;
+    margin-right: -20px;
+  }
+
+  .showing {
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 100%;
+  }
+  .img-container {
+    background-image: url("./images/patterned-bg.svg");
+    background-size: 100%;
+    margin: auto;
+    width: 330px;
+    height: 310px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .img-container img {
+    width: 255px;
+    height: 255px;
+    box-shadow: 0 35px 35px -20px rgb(0, 0, 0, 0.3);
+  }
+
+  .controls {
+    position: absolute;
+    bottom: 9px;
+    width: 25%;
+    height: 36px;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    padding: 10px;
+
+    box-sizing: border-box;
+  }
 }
