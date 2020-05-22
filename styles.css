@@ -167,7 +167,6 @@ body {
     width: 100%;
   }
   .img-container {
-    background-image: url("./images/pattern-bg.svg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     margin: auto;
